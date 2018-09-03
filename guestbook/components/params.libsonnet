@@ -12,7 +12,7 @@
       name: "guestbook-ui",
       replicas: 2,
       servicePort: 80,
-      type: "LoadBalancer",
+      type: "NodePort",
     },
   },
 }
